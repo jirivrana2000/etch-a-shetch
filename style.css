@@ -1,0 +1,116 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: lightgray;
+  color: white;
+  text-shadow: 0 0 50px white, 0 0 21px white;
+}
+
+.header {
+  margin: 0px;
+  padding: 0px;
+  height: 120px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  color: white;
+  font-size: 30px;
+}
+
+main {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.controller {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  height: 609px;
+  width: 300px;
+  background-color: grey;
+  border: solid 5px grey;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 50px white, 0 0 21px white;
+}
+
+h2 {
+  margin: 10px;
+  font-size: 25px;
+}
+
+.buttons {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro {
+  margin: 20px;
+  text-align: center;
+}
+
+.slidercontainer {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  margin-top: 15px;
+}
+
+#demo {
+  margin-left: auto;
+  text-align: center;
+  margin-right: auto;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#resetButton {
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  font-size: 15px;
+  color: white;
+  background-color: grey;
+  text-shadow: 0 0 50px white, 0 0 21px white;
+}
+
+#container {
+  margin: 0px;
+  padding: 0px;
+  background-color: grey;
+  height: 609px;
+  width: 610px;
+  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  border: solid 5px grey;
+  flex-shrink: 0;
+  box-shadow: 0 0 50px white, 0 0 21px white;
+  margin-left: 30px;
+}
+
+.content {
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+}
